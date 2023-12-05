@@ -1,1 +1,1 @@
-Check it out on [Demo]([https://st-hello-app.streamlit.app/](https://lakehouse-app-xtidyycttitfb9rjqcjlqj.streamlit.app/Data_Statistics)https://lakehouse-app-xtidyycttitfb9rjqcjlqj.streamlit.app/Data_Statistics)
+Check it out on [Demo](https://lakehouse-app-xtidyycttitfb9rjqcjlqj.streamlit.app/Data_Statistics).
