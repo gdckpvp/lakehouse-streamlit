@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+st.set_page_config(page_title="Data", page_icon="📊", layout="wide")
+
 
 def filter_data(data, search_term):
     # Filter data based on search term by any column (case insensitive) and return the filtered data

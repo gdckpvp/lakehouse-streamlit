@@ -1,5 +1,7 @@
 import streamlit as st
 import os
+st.set_page_config(page_title="Data Statistics", page_icon="📊", layout="wide")
+
 
 def main():
     # tab view

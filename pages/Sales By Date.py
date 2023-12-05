@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+st.set_page_config(page_title="Sales By Date", page_icon="📊", layout="wide")
 def Path(m,y):
     #colect image from foder Image and sub folder have path: D:\ShareFolder\test.t\Image\2021\TotalPay_by_Day_in_Month_1_in_2021.png
     #m: month
