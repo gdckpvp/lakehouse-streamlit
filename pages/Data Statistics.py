@@ -34,6 +34,8 @@ def main():
         st.image("Image/Stastic/scatterplot_SellScope.png")
         st.markdown("### Corelation in Item")
         st.image("Image/Stastic/heatmap.png")
+        st.dataframe(pd.read_csv("data/TopItem.csv"), hide_index=True, use_container_width=True)
+
 
 
 
