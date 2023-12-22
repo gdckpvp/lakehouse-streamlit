@@ -12,17 +12,17 @@ def main():
         st.markdown("## Brand")
         st.markdown("Click button on the image to view the full image")
         st.image("Image/Stastic/barplot_Brand.png")
-        st.dataframe(pd.read_csv("data/df_Brand.csv"), hide_index=True, use_container_width=True)
+        st.dataframe(pd.read_csv("Data/df_Brand.csv"), hide_index=True, use_container_width=True)
     with tab2:
         st.markdown("## City")
         st.markdown("Click button on the image to view the full image")
         st.image("Image/Stastic/barplot_City.png")
-        st.dataframe(pd.read_csv("data/df_totalByCity.csv"), hide_index=True, use_container_width=True)
+        st.dataframe(pd.read_csv("Data/df_totalByCity.csv"), hide_index=True, use_container_width=True)
     with tab3:
         st.markdown("## Category")
         st.markdown("Click button on the image to view the full image")
         st.image("Image/Stastic/scatterplot_CategoryStatistic.png")
-        st.dataframe(pd.read_csv("data/df_Category1.csv"), hide_index=True, use_container_width=True)
+        st.dataframe(pd.read_csv("Data/df_Category1.csv"), hide_index=True, use_container_width=True)
     with tab4:
         st.markdown("## Frequency")
         st.markdown("Click button on the image to view the full image")
@@ -34,7 +34,7 @@ def main():
         st.image("Image/Stastic/scatterplot_SellScope.png")
         st.markdown("### Corelation in Item")
         st.image("Image/Stastic/heatmap.png")
-        st.dataframe(pd.read_csv("data/TopItem.csv"), hide_index=True, use_container_width=True)
+        st.dataframe(pd.read_csv("Data/TopItem.csv"), hide_index=True, use_container_width=True)
 
 
 

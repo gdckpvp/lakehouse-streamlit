@@ -38,7 +38,7 @@ def check_data(df):
 def main():
    st.title('Sales Information')
    st.markdown('Choose the tab to view the information')
-   df = pd.read_csv('data/df_totalByDay_pd.csv')
+   df = pd.read_csv('Data/df_totalByDay_pd.csv')
    
    st.markdown('# Doanh thu 10 ngày cuối cùng kể từ lần cuối dữ liệu được cập nhật')
    st.dataframe(df.tail(10),hide_index=True,use_container_width=True)
